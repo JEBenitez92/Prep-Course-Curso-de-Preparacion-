@@ -100,6 +100,8 @@ function esEntero(numero) {
   // Tu código:
   if(Math.floor(numero)){
     return true
+  } else if(numero === 0) {
+    return true
   } else {return false}
 }
 
