@@ -150,7 +150,7 @@ function esPrimo(numero) {
     if (numero % i === 0) {
       return false
     } else {return true}
-  }
+  } {return false}
 }
 
 function esVerdadero(valor){
