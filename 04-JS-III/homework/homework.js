@@ -26,10 +26,12 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
+  var array = [9, 10, 50, 5]
+  var array1 = []
   var suma = 1
   for (var i = 0; i < array.length; i++){ 
-  console.log(suma + i)}
-  return array  
+  array1[i] = suma + array[i]}
+  return array1
 }
 
 
