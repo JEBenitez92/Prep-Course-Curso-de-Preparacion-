@@ -189,7 +189,7 @@ function doWhile(numero) {
   do {
     numero = numero + 5;
     valor ++;
-  } while(valor <= 8) {
+  } while(valor < 8) {
     return numero
   }
   }
