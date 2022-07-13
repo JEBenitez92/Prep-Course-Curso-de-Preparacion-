@@ -30,7 +30,7 @@ function incrementarPorUno(array) {
   var suma = 1
   var array1= suma + array[i]
   for (var i = 0; i < array.length; i++){ 
-  array.push(1 + i)}
+  console.log(suma + i)}
   return array
     
 }
