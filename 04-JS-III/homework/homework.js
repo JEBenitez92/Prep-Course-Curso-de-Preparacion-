@@ -174,11 +174,11 @@ function mesesDelAño(array) {
   var meses = []
     for (var i = 0; i < array.length; i++){
       if (array[i] === 'Enero' || array[i] === 'Marzo' || array [i] === 'Noviembre'){
-          meses.push[array [i]] }
+          meses.push(array [i]) }
     }
-    if(meses === 'Enero' || meses === 'Noviembre' || meses === 'Marzo'){
-      return meses; }
-      else {return 'No se encontraron los meses pedidos' }
+    if(meses. length < 3){
+    return 'No se encontraron los meses pedidos' }
+    else { return meses; }
 }
 
 
