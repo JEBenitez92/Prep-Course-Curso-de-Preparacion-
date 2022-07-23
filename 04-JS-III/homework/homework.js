@@ -212,7 +212,7 @@ function breakStatement(numero) {
           break; 
       array.push(suma)}
   
-  if (suma === 10) {
+  if (array.length < 10) {
       return 'se interrumpió la ejecución'}
   else { return array }
 }
