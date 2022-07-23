@@ -208,11 +208,11 @@ function breakStatement(numero) {
   var suma = numero
   for (var i = 0; i < 10; i++){
       suma = suma + 2;
-      if (i === 10 ) 
+      if (suma === 10 ) 
           break; 
       array.push(suma)}
   
-  if (i < 10) {
+  if (suma === 10) {
       return 'se interrumpió la ejecución'}
   else { return array }
 }
