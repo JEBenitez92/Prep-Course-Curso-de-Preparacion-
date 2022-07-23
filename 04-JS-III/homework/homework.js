@@ -209,11 +209,11 @@ function breakStatement(numero) {
   for (var i = 0; i < 10; i++){
       suma = suma + 2;
       if (suma === 10 ) 
-          {break; }
+          break; 
       array.push(suma)}
   
   if ( suma === 10) {
-      return 'se interrumpió la ejecución'}
+      return 'Se interrumpió la ejecución'}
   else { return array }
 }
 
