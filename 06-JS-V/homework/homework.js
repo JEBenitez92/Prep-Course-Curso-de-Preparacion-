@@ -61,18 +61,19 @@ function agregarStringInvertida() {
       this.nombre = nombre;
       this.nombre = apellido;
       this.edad = edad;
-      this.domicilio = domicilio;}
-      Persona.prototype.detalle = function(){
-        retun {
-          nombre: this.nombre,
-          apellido: this.apellido,
-          edad: this.edad,
-          domicilio: this.domicilio
-
+      this.domicilio = domicilio;
+      this.detalles = function(){
+        return {
+          Nombre: this.nombre,
+          Apellido: this.apellido,
+          Edad: this.edad,
+          Domicilio: this.domicilio,
+        }
+      }
         }
       }
 
-    }
+    
 
 
 function crearInstanciaPersona(nombre, apellido, edad, dir) {
