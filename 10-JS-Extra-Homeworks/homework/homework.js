@@ -12,7 +12,7 @@ function deObjetoAmatriz(objeto){
   //Escribe tu código aquí
   var arrayNuevo = [];
   for(var clave in objeto){
-    arrayNuevo.push([clave, objeto.clave])
+    arrayNuevo.push([clave, objeto[clave]])
   }
   return arrayNuevo;
 }
