@@ -58,7 +58,7 @@ function asAmirror(str) {
   var invertirCadena = crearCadena.map(function(ele){
       return ele.split('').reverse().join('');
   });
-  var invertido = invertirCadena.join('');
+  var invertido = invertirCadena.join(' ');
   return invertido;
 } 
 
