@@ -44,7 +44,7 @@ function capToFront(s) {
       minuscula = minuscula + s[i]
     } else {mayuscula =mayuscula + s[i]}
   } 
-  return minuscula + mayuscula
+  return mayuscula + minuscula
 }
 
 
